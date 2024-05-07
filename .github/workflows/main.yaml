@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-push-ecr-image:
-    run: Build Image
+    name: Build Image
     run-on: ubuntu-latest
     steps:
     - name: Check out code
@@ -27,7 +27,7 @@ jobs:
     - name: Build, tag, and push image to Amazon ECR
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECRR_REPOSITORY: github-sample
+        ECR_REPOSITORY: github-sample
         IMAGE_TAG: latest
       run:
         docker build -t $ECR_REGISTORY/$ECR_REPOSITORY:$IMAGE_TAG . 
