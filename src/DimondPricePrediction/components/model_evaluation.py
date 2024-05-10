@@ -31,7 +31,8 @@ class ModelEvaluation:
 
         
 
-            mlflow.set_registry_uri("https://dagshub.com/mishraatharva/DiamondPricePrediction.mlflow \")
+            # mlflow.set_registry_uri("https://dagshub.com/mishraatharva/DiamondPricePrediction.mlflow \")
+            mlflow.set_registry_uri("https://dagshub.com/mishraatharva/DiamondPricePrediction.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
