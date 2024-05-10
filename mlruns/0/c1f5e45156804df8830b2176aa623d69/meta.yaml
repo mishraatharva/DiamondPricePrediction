@@ -1,0 +1,15 @@
+artifact_uri: file:///U:/Machine_Learning/iNeuron_Live-projects/diamond_price_prediction/mlruns/0/c1f5e45156804df8830b2176aa623d69/artifacts
+end_time: 1715330751835
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1f5e45156804df8830b2176aa623d69
+run_name: clumsy-shrike-870
+run_uuid: c1f5e45156804df8830b2176aa623d69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715330749904
+status: 3
+tags: []
+user_id: Naruto

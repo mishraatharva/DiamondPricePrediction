@@ -4,4 +4,8 @@ scikit-learn
 seaborn
 matplotlib
 Flask
+ipykernel
+boto3
+mlflow
+dvc
 -e .
